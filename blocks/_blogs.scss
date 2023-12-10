@@ -1,0 +1,31 @@
+.blog {
+    width: 260px;
+    height: 300px;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+
+.fotosize {
+    width: 100%;
+    object-fit: cover;
+}
+
+.textoblogs {
+    font-size: 35px;
+}
+
+.pblog {
+    font-size: 15px;
+}
+
+.pnegrita {
+    font-size: 16px;
+}
+
+.todosblog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 300px;
+    position: relative;
+}

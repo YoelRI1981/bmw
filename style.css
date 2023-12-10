@@ -1,0 +1,259 @@
+.derecha a img {
+  width: 20px;
+}
+
+.logo {
+  width: 112px;
+}
+
+.precio {
+  font-size: 14px;
+}
+
+.configuracion {
+  font-size: 12px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  color: white;
+}
+
+.inmediata {
+  color: white;
+}
+
+.descubreloButtom {
+  background-color: rgb(28, 105, 213);
+  color: white;
+}
+
+.contenedorSerie {
+  color: rgb(189, 189, 189);
+}
+
+.contenedortipos {
+  color: rgb(189, 189, 189);
+}
+
+.precio {
+  color: rgb(189, 189, 189);
+}
+
+.fondobmw {
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  justify-content: flex-start;
+  left: 75px;
+}
+
+.navbar li {
+  margin: 15px;
+}
+
+.derecha {
+  top: -109px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 60px;
+}
+
+.inmediata {
+  bottom: -365px;
+  position: relative;
+  display: inline-block;
+  left: 66px;
+  font-size: 20px;
+}
+
+.descubreloButtom {
+  width: 147px;
+  left: 66px;
+  position: relative;
+  height: 35px;
+  bottom: -425px;
+}
+
+.linea {
+  border-bottom: 1px solid lightgrey;
+  top: -110px;
+  position: relative;
+  width: 1046px;
+  left: 90px;
+}
+
+.contenedorSerie {
+  width: 80px;
+  top: 150px;
+  position: relative;
+  left: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contenedortipos {
+  display: flex;
+  width: 1000px;
+  top: 180px;
+  position: relative;
+  left: 150px;
+  gap: 30px;
+  font-size: 20px;
+  height: 40px;
+  border-bottom: 1px solid lightgray;
+  justify-content: center;
+  transition: font-size;
+}
+
+.textocoche {
+  position: relative;
+  left: 29px;
+  top: -7px;
+}
+
+.cochetexto img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 228px;
+  height: 100px;
+}
+
+.cuadrosfotos {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 200px;
+}
+
+.blog {
+  width: 260px;
+  height: 300px;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+
+.fotosize {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.textoblogs {
+  font-size: 35px;
+}
+
+.pblog {
+  font-size: 15px;
+}
+
+.pnegrita {
+  font-size: 16px;
+}
+
+.todosblog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 300px;
+  position: relative;
+}
+
+.videos {
+  top: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cuadrovideos {
+  border: 1px solid lightgray;
+  position: relative;
+  padding: 15px;
+  height: 320px;
+}
+
+.videotitulo {
+  font-size: 35px;
+}
+
+.rectangulos {
+  top: 550px;
+  position: relative;
+  background-color: rgb(242, 242, 242);
+  width: 200px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconorectangulo {
+  width: 43px;
+  height: 28px;
+}
+
+.rectangulotexto {
+  color: rgb(189, 189, 189);
+}
+
+.todoslosrectangulos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  height: 431px;
+  background-color: rgb(230, 230, 230);
+  bottom: -897px;
+  position: relative;
+}
+
+.todaslaslista {
+  display: flex;
+  justify-content: space-evenly;
+  bottom: -156px;
+  position: relative;
+}
+
+.lineafooter {
+  border-top: 1px solid lightgrey;
+  top: 88px;
+  position: relative;
+  left: 96px;
+  width: 1096px;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Helvetica, sans-serif, Arial;
+}/*# sourceMappingURL=style.css.map */

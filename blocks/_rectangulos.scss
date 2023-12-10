@@ -1,0 +1,25 @@
+.rectangulos {
+    top: 550px;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconorectangulo {
+    width: 43px;
+    height: 28px;
+}
+
+.rectangulotexto {
+    color: rgb(189, 189, 189);
+}
+
+.todoslosrectangulos {
+    display: flex;
+    justify-content: space-evenly;
+}

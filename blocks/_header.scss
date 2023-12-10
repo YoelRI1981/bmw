@@ -1,0 +1,59 @@
+.fondobmw {
+  background-image: url(../img/header.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  justify-content: flex-start;
+  left: 75px;
+}
+
+.navbar li {
+  margin: 15px;
+}
+
+.derecha {
+  top: -109px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 60px;
+}
+
+.inmediata {
+  bottom: -365px;
+  position: relative;
+  display: inline-block;
+  left: 66px;
+  font-size: 20px;
+}
+
+.descubreloButtom {
+  width: 147px;
+  left: 66px;
+  position: relative;
+  height: 35px;
+
+  bottom: -425px;
+}
+
+.linea {
+  border-bottom: 1px solid lightgrey;
+  top: -110px;
+  position: relative;
+  width: 1046px;
+  left: 90px;
+}

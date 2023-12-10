@@ -1,0 +1,18 @@
+.videos {
+    top: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuadrovideos {
+    border: 1px solid lightgray;
+    position: relative;
+    padding: 15px;
+    height: 320px;
+}
+
+.videotitulo {
+    font-size: 35px;
+}
